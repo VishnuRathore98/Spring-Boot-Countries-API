@@ -3,11 +3,13 @@ package com.example.countriesAPI.services;
 import com.example.countriesAPI.beans.Country;
 import com.example.countriesAPI.controllers.AddResponse;
 import org.apache.catalina.LifecycleState;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+@Component
 public class CountryService {
 
     static HashMap<Integer, Country> countryIdMap;

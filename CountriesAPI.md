@@ -37,17 +37,17 @@
                 {<br>
                  "id":1,<br>
                  "countryName":"India",<br>
-                 "capital":"Delhi"<br>
+                 "countryCapital":"Delhi"<br>
                 },<br>
                 {<br>
                 "id":2,<br>
                 "countryName":"USA",<br>
-                "capital":"Washington"<br>
+                "countryCapital":"Washington"<br>
                 },<br>
                 {<br>
                 "id":3,<br>
                 "countryName":"England",<br>
-                "capital":"London"<br>
+                "countryCapital":"London"<br>
                 }<br>
             ]</td>
     </tr>
@@ -62,7 +62,7 @@
             {<br>
             "id":1,<br>
             "countryName":"India",<br>
-            "capital":"Delhi"<br>
+            "countryCapital":"Delhi"<br>
             }<br>
         </td>
     </tr>
@@ -77,7 +77,7 @@
             {<br>
             "id":2,<br>
             "countryName":"USA",<br>
-            "capital":"Washington"<br>
+            "countryCapital":"Washington"<br>
             }<br>
         </td>
     </tr>
@@ -89,13 +89,13 @@
         <td>POST</td>
         <td>{<br>
                 "countryName":"Italy",<br>
-                "capital":"Rome"<br>
+                "countryCapital":"Rome"<br>
             }</td>
         <td>
             {<br>
             "id":"4",<br>
             "countryName":"Italy",<br>
-            "capital":"Rome"<br>
+            "countryCapital":"Rome"<br>
             }
         </td>
     </tr>
@@ -108,12 +108,12 @@
         <td>{<br>
                 "id":"4",<br>
                 "countryName":"Japan",<br>
-                "capital":"Tokyo"<br>
+                "countryCapital":"Tokyo"<br>
             }</td>
         <td>{<br>
             "id":"4",<br>
             "countryName":"Japan",<br>
-            "capital":"Tokyo"<br>
+            "countryCapital":"Tokyo"<br>
             }</td>
     </tr>
     <!-- Delete country -->
