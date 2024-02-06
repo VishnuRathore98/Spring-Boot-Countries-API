@@ -1,15 +1,28 @@
 package com.example.countriesAPI.beans;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "country")
 public class Country {
 
+    @Id
+    @Column(name = "id")
     private int id;
-    private String countryName;
-    private String countryCapital;
 
-    public Country(int id, String countryName, String countryCapital) {
+    @Column(name = "country_name")
+    private String countryName;
+
+    @Column(name = "capital")
+    private String countryCapital;
+    Country(){}
+    Country(int id, String countryCapital, String countryName) {
         this.id = id;
-        this.countryName = countryName;
         this.countryCapital = countryCapital;
+        this.countryName = countryName;
     }
 
     public int getId() {
