@@ -19,7 +19,7 @@ public class Country {
     @Column(name = "capital")
     private String countryCapital;
     Country(){}
-    Country(int id, String countryCapital, String countryName) {
+    public Country(int id, String countryCapital, String countryName) {
         this.id = id;
         this.countryCapital = countryCapital;
         this.countryName = countryName;
